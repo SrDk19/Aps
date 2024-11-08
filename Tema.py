@@ -8,11 +8,11 @@ recor=""
 o=0
 for i in senha:
     #cod= cod + chr(ord(i)+5)
-    o = o+1
     print(o)
-    box.append = o(ord(i))
+    box.insert(o,ord(i))
     print(box[o])
-#for i in cod:
+    o = o+1
+    #for i in cod:
     #recor=recor + chr(ord(i)-5)
 print(cod)
 print(recor)
